@@ -1,0 +1,85 @@
+//////function user(fname, lname, age) {
+//////    this.fname = fname;
+//////    this.lname = lname;
+//////    this.age = age;
+//////  //  this.getfullname =  function (){} 
+//////    this.getfullname = () => `full name : ${this.fname} ${this.lname}`
+//////    this.getAge = () => `Age in days ${this.age * 365}`
+//////}
+//////let user1 = new user('mahmoud', 'abdelfattah', 25)
+//////let user2 = new user('mahmoud', 'zebina', 25)
+//////console.log(user1.getfullname(), user1.getAge())
+
+////const arr = [1, 2, 36, 5, 96, 88, 42];
+//////console.log(user.prototype);
+////user.prototype.addTitile = function () {
+////    return `hello ${this.fname} ${this.lname}` }
+//////console.log(user1.addTitile());
+//////console.log(user2.addTitile());
+
+////Object.prototype.elzero = "elzero web school"
+////const obj = { a: 2, b: 5 };
+//////console.log(Object, obj.elzero)
+
+
+////String.prototype.zFill = function (width) {
+////    let theResult = this;
+
+////    while (theResult.length < width) {
+////        theResult = `0${theResult}`
+////    }
+////    return `${theResult}`
+////}
+
+
+//////console.log("23".zFill(5))
+//////console.log("213".zFill(5))
+//////console.log("236".zFill(5))
+//////console.log("2334".zFill(5))
+//////console.log("23123".zFill(5))
+
+
+////String.prototype.sayYouLoveMe = function () {
+   
+////    return `i love you ${this}`
+////}
+//////console.log(sayYouLoveMe())
+//////console.log("mahmoud".sayYouLoveMe())..
+
+
+//class user {
+//    constructor(fname, lname, age) {
+//        this.fname = fname;
+//        this.lname = lname;
+//        this.age = age;
+//    }
+
+//    //  this.getfullname =  function (){} 
+
+//    getfullname() {
+//        return `full name : ${this.fname} ${this.lname}`
+//    }
+//    get getAge() {
+//        return `Age in days ${this.age * 365}`
+//    }
+
+//    set changeName(newname) {
+//        this.fname=newname
+//    }
+//   getFullInfo() {
+//        return`name : ${this.fname} ${this.lname}
+//Age : ${this.age}  `
+//    }
+//}
+//class admin extends user {
+//    constructor(fname, lname, age) {
+//        super(fname, lname, age);
+//    }
+//}
+
+//let admin1 = new admin("ahmed", "ali", 33);
+//admin1.changeName = "waleed";
+//console.log(admin1.getFullInfo())
+//const prob = { a: 1 }
+
+//console.log(typeof prob.a)
